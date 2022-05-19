@@ -1,0 +1,15 @@
+<p>room-list works!</p>
+
+<div *ngFor="let room of rooms">
+    <h4>{{room.title}}</h4>
+    <p>Prix : {{room.price}} euros</p>
+    <p>Description : {{room.description}}</p>
+    <img src='../../assets/images/{{room.image_name}}' ><br>
+    <a [routerLink]="['/detail-room', room.id]">Accéder</a>
+    <button (click)="tata(room)">click </button>
+
+
+
+    {{tataprix}}
+
+</div>

@@ -1,0 +1,59 @@
+{
+  "rooms": [
+    {
+      "id": 0,
+      "title": "Dunlap",
+      "price": "789",
+      "description": "lorum...",
+      "image_name": "imagename",
+      "owner": {
+        "firstname": "alex",
+        "lastname": "dupont"
+      }
+    },
+    {
+      "id": 1,
+      "title": "MarAlto - La Tagua",
+      "price": 112,
+      "image_name": "mar-alto.PNG",
+      "owner": {
+        "firstname": "María",
+        "lastname": " De Los Ángeles"
+      },
+      "description": "Ce chalet est situé dans la région de Lagunillas, et offre une vue imprenable. Construite sur pilotis, ses grandes fenêtres donnent l'illusion de flotter sur la mer."
+    },
+    {
+      "id": 2,
+      "title": "Suite Container: suspendue entre terre et mer",
+      "price": 260,
+      "image_name": "suite-container.PNG",
+      "owner": {
+        "firstname": "Vittorio",
+        "lastname": "Emanuele"
+      },
+      "description": "À propos de ce logement\\nUn coffre au trésor sophistiqué et accueillant, entouré par la nature et un style unique.Situé à Terrasini, dans une magnifique vallée surplombant la côte du golfe de Castellammare, Container Suite, entouré d'une étendue luxuriante de poires piquantes, s'intègre dans le paysage en parfaite harmonie avec le territoire environnant.Uniquement conçu, il se caractérise par une grande fenêtre sur le golfe qui projette le client dans un mode de suspension."
+    },
+    {
+      "id": 1652880248053,
+      "title": "newRoom",
+      "price": "newRoom",
+      "description": "newRoomnewRoom",
+      "image_name": "vnewRoomv",
+      "owner": {
+        "firstname": "newRoom",
+        "lastname": "newRoom"
+      }
+    },
+    {
+      "id": 1652947231673,
+      "title": "aaaa",
+      "price": "aaaa",
+      "description": "aaaaa",
+      "image_name": "aaaa",
+      "owner": {
+        "firstname": "aaaa",
+        "lastname": "aaaa"
+      }
+    }
+  ]
+}

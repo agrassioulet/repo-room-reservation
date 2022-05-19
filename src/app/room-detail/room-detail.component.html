@@ -1,0 +1,29 @@
+<p>room-detail works!</p>
+
+<!-- <p>Prix : {{room.price}}</p>
+<p>Titre : {{room.title}}</p>
+<p>Description : {{room.description}}</p> -->
+
+
+<form #f="ngForm" (submit)='updateRoom(f)'>
+    <label for="title">Titre : </label>
+    <input type="text" id="title" [(ngModel)]="room.title" name="title" ><br>
+
+    <label for="price">Prix : </label>
+    <input type="text" id="price" [(ngModel)]="room.price"  name="price" ><br>
+
+    <label for="firstname_owner">Prénom : </label>
+    <input type="text" id="firstname_owner" [(ngModel)]="room.owner.firstname" name="firstname_owner" ><br>
+
+    <label for="lastname_owner">Nom : </label>
+    <input type="text" id="lastname_owner" [(ngModel)]="room.owner.lastname" name="lastname_owner" ><br>
+
+    <label for="image_name">Nom de l'image : </label>
+    <input type="text" id="image_name" [(ngModel)]="room.image_name" name="image_name" ><br>
+
+    <label for="description">Description</label><br>
+    <textarea id="description" cols="50" rows="30" [(ngModel)]="room.description" name="description" ></textarea><br>
+
+    <button type="submit">Mettre à jour</button>
+
+</form>

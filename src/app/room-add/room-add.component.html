@@ -1,0 +1,25 @@
+<p>room-add works!</p>
+
+
+<form #f="ngForm" (submit)='addRoom(f)'>
+    <label for="title">Titre : </label>
+    <input type="text" id="title" ngModel name="title"><br>
+
+    <label for="price">Prix : </label>
+    <input type="text" id="price" ngModel name="price"><br>
+
+    <label for="firstname_owner">Prénom : </label>
+    <input type="text" id="firstname_owner" ngModel name="firstname_owner"><br>
+
+    <label for="lastname_owner">Nom : </label>
+    <input type="text" id="lastname_owner" ngModel name="lastname_owner"><br>
+
+    <label for="image_name">Nom de l'image : </label>
+    <input type="text" id="image_name" ngModel name="image_name"><br>
+
+    <label for="description">Description</label><br>
+    <textarea id="description" cols="50" rows="30" ngModel name="description"></textarea><br>
+
+    <button type="submit">Ajouter</button>
+
+</form>
